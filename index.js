@@ -9,7 +9,7 @@ function Validate() {
 
     if (!userName || !password || !confirmPass)
     {
-        alert("Fields con`t be empty");
+        alert("Fields can`t be empty");
         return false;
     }
     else if (!/^[a-zA-Z\s]+$/.test(userName))
